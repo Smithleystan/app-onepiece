@@ -1,25 +1,24 @@
-import React from 'react'
+import React from "react";
 
 function Plan() {
   return (
     <div>
-
-<main>
-      <div class="plan">
-        <div class="plpl plac">
-          <h1>Ou nous trouver</h1>
-          <hr noshade="noshade" />
-          <br />
-          Métro : Ligne 2 <br />
-          adresse : 21 rue de marseille
+      <main>
+        <div class="plan">
+          <div class="plpl plac">
+            <h1>Ou nous trouver</h1>
+            <hr noshade="noshade" />
+            <br />
+            Métro : Ligne 2 <br />
+            adresse : 21 rue de marseille
+          </div>
+          <div class="plpl plou">
+            <img src="../images/plan.PNG" alt="plan du lieu" />
+          </div>
         </div>
-        <div class="plpl plou">
-          <img src="plan.PNG" alt="plan du lieu" />
-        </div>
-      </div>
-    </main>
+      </main>
     </div>
-  )
+  );
 }
 
-export default Plan
+export default Plan;
